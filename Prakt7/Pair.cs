@@ -80,6 +80,7 @@ namespace Prakt7
         /// Операция инкремента (a,b;b)=(a+b,b+b)
         /// </summary>
         /// <param name="value1">Объект пары 1</param>
+        /// <param name="value2">Объект пары 2</param>
         /// <returns>Возвращаемое значение itog результат операции инкремента</returns>
         public static Pair operator +(Pair value1, Pair value2)
         {
